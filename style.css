@@ -1,0 +1,54 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.header{
+    Width:100%;
+    min-height:100vh;
+    background-image:url("backgroundimage.jpeg")
+}
+nav{
+    display:lex;
+    justify-content: space between;
+    align-items:center;
+    
+}
+.link{
+    flex:1;
+    text-align: right;
+
+}
+.link ul li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    
+
+}
+.link ul li a{
+    color:black
+    text-decoration:black;
+    font-size: 10px;
+}
+.link ul li::after{
+    width:0%;
+    height:2px;
+    background:pink;
+    display:block;
+    margin:auto;
+
+}
+.register-button{
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    border:2px black solid;
+    padding:12pax 34px;
+    font-size:20px;
+background:transparent;
+position:relative;
+cursor:pointer;
+}
